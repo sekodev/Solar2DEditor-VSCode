@@ -1805,6 +1805,12 @@
 		"prefix": "audio.freeChannels",
 		"body": "audio.freeChannels"
 	},
+	"audio.reservedChannels": {
+		"scope": "lua",
+		"description": "Returns the number of reserved channels set by audio.reserveChannels().",
+		"prefix": "audio.reservedChannels",
+		"body": "audio.reservedChannels"
+	},
 	"audio.totalChannels":{
 		"scope":"lua",
 		"description": "Returns the total number of channels. This value is currently 32, but the limit may change in the future.",
